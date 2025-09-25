@@ -53,7 +53,7 @@
                 <a class="nav-link <?php if ( is_page(62) ) echo 'active'; ?>" href="/pricing">Pricing</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link <?php if ( is_page(91) ) echo 'about-us'; ?>" href="/about-us">About</a>
+                <a class="nav-link <?php if ( is_page(91) ) echo 'active'; ?>" href="/about-us">About</a>
               </li>
             </ul>
             <div class="sap_green_btn">
