@@ -1,0 +1,1297 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  scroll-behavior: smooth;
+  text-decoration: none !important;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+a,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+.sap_green_btn button {
+  background-color: #373d48;
+  padding: 14px 38px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  color: #ffffff;
+  border: none;
+  transition: all 0.5s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
+
+.sap_green_btn button .icon {
+  display: none;
+  transition: opacity 0.3s ease;
+}
+
+.sap_green_btn button:hover .icon {
+  display: block;
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.text_para p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  color: var(--color-dark);
+}
+:root {
+  /* -------------------font-size---------------- */
+  --fs-xxl: 44px;
+  --fs-xl: 40px;
+  --fs-lg: 35px;
+  --fs-md: 24px;
+  --fs-sm: 20px;
+  --fs-xs: 18px;
+  /* ----------------------colors------------------ */
+  --color-primary: #2baa95;
+  --color-secondary: #373d48;
+  --color-dark: #737373;
+  --color-warning: ;
+}
+/*=========color========== */
+.color_primary {
+  color: var(--color-primary);
+}
+.color_secondary {
+  color: var(--color-secondary);
+}
+.color_dark {
+  color: var(--color-dark);
+}
+/*=========font-size========== */
+.fs_xxl {
+  font-size: var(--fs-xxl);
+}
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+.fs_lg {
+  font-size: var(--fs-lg);
+}
+.fs_md {
+  font-size: var(--fs-md);
+}
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+.fs_xs {
+  font-size: var(--fs-xs);
+}
+/* ========font-weight========= */
+.font_light {
+  font-weight: 300;
+}
+.font_regular {
+  font-weight: 400;
+}
+.font_md {
+  font-weight: 500;
+}
+.font_semibold {
+  font-weight: 600;
+}
+.font_bold {
+  font-weight: 700;
+}
+.font_xbold {
+  font-weight: 800;
+}
+
+/* -----------------------------------header css code------------------------------------- */
+.navbar .navbar-nav .nav-item .nav-link {
+  padding: 0;
+  margin: 0 48px 0 0;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #db222a;
+}
+.navbar .sap_green_btn button {
+  background-color: #fff;
+  border: 1px solid #373d48;
+  color: #373d48;
+  padding: 14px 30px;
+  transition: all 0.5s ease-in-out;
+}
+.navbar .sap_green_btn button:hover .icon {
+  right: 8px;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* -----------------------------------header css code------------------------------------- */
+
+/* -----------------------------------Herobanner css code--------------------------------- */
+.herobanner_left h1 span {
+  color: #db222a;
+}
+.herobanner_left .text_para p {
+  margin: 15px 0 30px 0;
+}
+.herobanner_left .text_para p span {
+  color: #db222a;
+}
+.herobanner_sec {
+  padding: 50px 0 120px 0;
+}
+.herobanner_inner_sec {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.herobanner_left {
+  width: 100%;
+  max-width: 50%;
+}
+.herobanner_right {
+  width: 100%;
+  max-width: 50%;
+}
+.lapii_img {
+  text-align: center;
+  position: relative;
+}
+
+.audioshade {
+  position: absolute;
+  bottom: -90px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.audio {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* -----------------------------------Herobanner css code--------------------------------- */
+
+/* -----------------------------------clinic css code--------------------------------- */
+.clinic_sec {
+  padding: 60px 0;
+}
+.text_green {
+  color: #db222a;
+}
+.clinic_inner_sec ul {
+  background: #ffffff;
+  box-shadow: 0 0 4.5px #0000000f;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  flex-wrap: wrap;
+  gap: 20px;
+  border-radius: 18px;
+  max-width: 950px;
+  margin: -130px auto 0 auto;
+}
+.clinic_inner_sec ul li {
+  color: #373d48;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 150%;
+  text-align: center;
+  border-right: 1px solid #878b9133;
+  padding: 0 65px 0 0;
+}
+.clinic_inner_sec ul li:last-child {
+  padding: 0;
+  border: none;
+}
+.clinic_inner_sec ul li span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #737373;
+  display: block;
+  line-height: 150%;
+}
+.clinic_inner_sec .fs_xl {
+  margin: 0 0 8px 0;
+  text-align: center;
+  line-height: 55px;
+}
+.clinic_inner_sec .fs_md {
+  text-align: center;
+  margin: 0 0 8px 0;
+}
+.clinic_inner_sec .text_para p {
+  max-width: 650px;
+  margin: 0 auto 24px auto;
+  text-align: center;
+}
+.clinic_inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+.clinic_icon {
+  background-color: #e5e5e5;
+  border-radius: 8px;
+  padding: 7px;
+  height: 40px;
+}
+.clinic_item {
+  border: 0.75px solid #373d4833;
+  padding: 16px;
+  border-radius: 18px;
+}
+.clinic_item img {
+  width: 100%;
+}
+.clinic_item h4 {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 150%;
+  color: #363c47;
+  margin: 16px 0 0 0;
+}
+.clinic_item h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #363c47;
+  line-height: 150%;
+}
+.clinic_item span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #373d48;
+}
+.text_red {
+  color: #db222a;
+}
+.clinic_item .text_red {
+  color: #db222a;
+}
+.clinic_sec .sap_green_btn button {
+  margin: 32px auto 0 auto;
+
+  display: block;
+}
+/* .clinic_inner_left ul li {
+  display: flex;
+  background-color: #f6f6f6cc;
+  box-shadow: 1px 1px 4px #00000012;
+  padding: 13px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 235px;
+  margin: 0 0 40px 0;
+} */
+/* .clinic_inner_left {
+  position: relative;
+} */
+/* .clinic_inner_left h5 {
+  position: absolute;
+  top: 45%;
+  transform: rotate(-90deg);
+  left: -80px;
+} */
+/* .clinic_inner_right h5 {
+  right: -115px;
+  left: auto;
+  transform: rotate(90deg);
+} */
+/* .clinic_inner_left ul li:nth-child(1) {
+  transform: rotate(10deg);
+}
+.clinic_inner_left ul li:nth-child(2) {
+  transform: rotate(5deg);
+}
+.clinic_inner_left ul li:nth-child(3) {
+  transform: rotate(-5deg);
+}
+.clinic_inner_left ul li:nth-child(4) {
+  transform: rotate(-10deg);
+}
+.clinic_inner_right ul li:nth-child(1) {
+  transform: rotate(-10deg);
+}
+.clinic_inner_right ul li:nth-child(2) {
+  transform: rotate(-5deg);
+}
+.clinic_inner_right ul li:nth-child(3) {
+  transform: rotate(5deg);
+}
+.clinic_inner_right ul li:nth-child(4) {
+  transform: rotate(10deg);
+} */
+/* .driven {
+    margin: 0 10px 0 0;
+  }
+  .driven h4 {
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--color-secondary);
+    margin: 0 0 4px 0;
+  }
+  .driven span {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--color-secondary);
+  } */
+/* -----------------------------------clinic css code--------------------------------- */
+
+/* -----------------------------------choose css code--------------------------------- */
+.choose_left .text_para p {
+  margin: 20px 0;
+}
+.choose_sec {
+  position: relative;
+  background-color: #f3f2e1;
+  padding: 60px 0;
+}
+.choose_dot {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+.choose_sec_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 9;
+}
+.choose_left {
+  width: 100%;
+  max-width: 40%;
+}
+.choose_right {
+  width: 100%;
+  max-width: 50%;
+  gap: 48px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.choose_left h2 sup {
+  font-size: 11px;
+  font-weight: 600;
+  top: -26px;
+}
+.choose_card {
+  background-color: #e6f5f2;
+  padding: 27px 9px;
+  border-radius: 18px;
+  border: 1px solid #0d405f33;
+  width: calc(50% - 24px);
+}
+.choose_icon svg {
+  background-color: #ffffff;
+  box-shadow: 0 6px 55px #3bbeff29;
+  padding: 5px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto 14px auto;
+}
+.choose_card h4 {
+  color: #333333;
+  text-align: center;
+  margin: 0 0 14px 0;
+}
+.choose_card .text_para p {
+  text-align: center;
+  font-size: 14px;
+}
+/* -----------------------------------choose css code--------------------------------- */
+
+/* -----------------------------------action css code--------------------------------- */
+
+.action_sec {
+  background-color: #e6f5f2;
+  padding: 60px 0;
+  position: relative;
+}
+.action_bt {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.action_sec_inner h2 {
+  text-align: center;
+  margin: 50px 0 8px 0;
+}
+.action_img {
+  text-align: center;
+  height: auto;
+  position: relative;
+}
+.video-on-screen {
+  position: absolute;
+  top: 7%;
+  left: 12%;
+  width: 76%;
+  height: 79%;
+  border: none;
+  border-radius: 40px 40px 0 0;
+}
+.action_img img {
+  width: 100%;
+  display: block;
+}
+
+/* -----------------------------------action css code--------------------------------- */
+
+/* -----------------------------------product css code--------------------------------- */
+.product_sec {
+  padding: 60px 0;
+}
+.product_sec_inner .fs_xl {
+  text-align: center;
+  margin: 0 0 8px 0;
+}
+.product_sec_inner .text_para p {
+  text-align: center;
+  margin: 0 0 48px 0;
+}
+.product_inner {
+  display: flex;
+}
+.product_inner_left {
+  width: 100%;
+  max-width: 50%;
+}
+.product_inner_right {
+  width: 100%;
+  max-width: 50%;
+}
+.product_inner_head {
+  flex: 410px;
+}
+.product_inner_head span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #737373;
+  display: block;
+  padding: 8px 0 0 0;
+  text-align: right;
+}
+.product_inner_head .fs_sm {
+  text-align: right;
+}
+.prosearch_icon {
+  background-color: #f6f6f6cc;
+  padding: 12px 17px;
+  border-radius: 42px 24px 0 42px;
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 24px;
+  box-shadow: 1px 1px 4px #00000012;
+  max-width: 218px;
+  width: 100%;
+}
+.prosearch_head {
+  margin: 0 0 0 12px;
+}
+
+.product_inner_left ul li {
+  display: flex;
+  align-items: center;
+  margin: 0 0 54px 0;
+}
+.product_inner_right ul li {
+  flex-direction: row-reverse;
+}
+.product_inner_right .prosearch_icon {
+  margin: 0;
+  border-radius: 24px 42px 42px 0;
+  box-shadow: 1px 1px 4px #373d48;
+  background-color: #373d48;
+}
+.product_inner_right .prosearch_head {
+  color: #fff;
+}
+.product_inner_right ul li {
+  margin: 54px 0 0 0;
+}
+.product_inner_right .product_inner_head span {
+  text-align: left;
+}
+.product_inner_right .product_inner_head .fs_sm {
+  text-align: left;
+}
+.product_inner_right .product_inner_head {
+  margin-left: 24px;
+}
+/* -----------------------------------product css code--------------------------------- */
+
+/* -----------------------------------Bird css code--------------------------------- */
+.pricing_plan_sec + .bird_sec  {
+  background: url("../smartperfect/assets/img/birdbg.png") no-repeat;
+  background-size: cover;
+}
+.pricing_plan_sec + .bird_sec img {
+  margin-top: -100px;
+}
+.bird_inner_sec {
+  display: flex;
+  align-items: center;
+}
+.bird_right .color_primary {
+  color: #db222a;
+}
+.bird_right h4 {
+  margin: 0 0 20px 0;
+}
+.bird_right p {
+  font-size: 25px;
+  color: var(--color-secondary);
+  margin: 0 0 20px 0;
+}
+.bird_left {
+  max-width: 40%;
+  width: 100%;
+}
+.bird_right {
+  width: 100%;
+  max-width: 60%;
+}
+/* -----------------------------------Bird css code--------------------------------- */
+
+/* -----------------------------------foot css code--------------------------------- */
+.foot_sec {
+  background-color: #373d48;
+  padding: 40px 0 0 0;
+  text-align: center;
+}
+.foot_logo img {
+  margin: 0 0 30px 0;
+}
+.foot_inner_sec ul {
+  display: flex;
+  gap: 48px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 0 30px 0;
+}
+.foot_inner_sec ul li a {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+}
+.foot_social_icon ul {
+  display: flex;
+  gap: 22px;
+}
+.foot_social_icon {
+  border-bottom: 1px solid #ffffff33;
+}
+.foot_inner_sec h6 {
+  color: #fff;
+  padding: 30px 0;
+  font-size: 16px;
+}
+.foot_inner_sec h6 a {
+  color: #db222a;
+  font-weight: 600;
+}
+.foot_social_icon ul li a svg:hover path {
+  fill: #db222a;
+}
+.foot_inner_sec ul li a:hover {
+  color: #db222a;
+}
+/* -----------------------------------foot css code--------------------------------- */
+
+/* --------------------------------------feature page css code------------------------------ */
+.feature_banner_sec .herobanner_inner_sec .herobanner_left .text_para p {
+  max-width: 512px;
+}
+.feature_banner_sec {
+  padding: 60px 0;
+}
+.feature_banner_sec .herobanner_inner_sec .herobanner_right .lapii_img img {
+  border-radius: 22px;
+}
+.feature_plateform_inner .fs_xl {
+  text-align: center;
+  margin: 0 0 8px 0;
+}
+.feature_plateform_inner .text_para p {
+  text-align: center;
+  margin: 0 0 48px 0;
+}
+.Plateform_icon {
+  background-color: #ffffff;
+  box-shadow: 0 6px 55px #3bbeff29;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  height: 72px;
+  width: 72px;
+}
+.Plateform_icon_head {
+  display: flex;
+}
+.Plateform_icon_head h4 {
+  color: #333333;
+  margin: 0 0 0 14px;
+  max-width: 166px;
+}
+.feature_plateform_inner ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+}
+.feature_plateform_inner ul li {
+  background-color: #f2f2e1;
+  border: 1px solid #0d405f33;
+  border-radius: 18px;
+  padding: 24px 12px;
+}
+.feature_plateform_inner ul li p {
+  margin: 14px 0 0 0;
+  color: #666666;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.feature_action_sec {
+  padding: 60px 0;
+}
+.feature_action_inner {
+  display: flex;
+  align-items: center;
+  gap: 160px;
+}
+.feature_action_left img {
+  width: 100%;
+  border-radius: 20px;
+}
+.feature_action_right .fs_xl {
+  margin: 0 0 24px 0;
+}
+.feature_action_right ul li {
+  font-size: var(--fs-xs);
+  font-weight: 400;
+  color: var(--color-dark);
+  line-height: 150%;
+  margin: 0 0 24px 0;
+  position: relative;
+  padding: 0 0 0 10px;
+}
+.feature_action_right ul li::before {
+  content: " ";
+  position: absolute;
+  top: 10px;
+  left: -5px;
+  background-color: #2baa95;
+  height: 8px;
+  width: 8px;
+  border-radius: 9999px;
+}
+.feature_secure_sec {
+  padding: 60px 0;
+  background-color: #f2f2e1;
+}
+.feature_secure_inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 70px;
+}
+.feature_secure_inner .choose_card {
+  padding: 0;
+  border: none;
+  width: auto;
+  background-color: transparent;
+}
+.feature_secure_inner .choose_card .text_para p {
+  margin: 0 auto;
+}
+.feature_secure_sec .fs_xl {
+  text-align: center;
+}
+.feature_secure_sec .text_para p {
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+/* --------------------------------------feature page css code------------------------------ */
+
+/* --------------------------------------pricing page css code------------------------------ */
+
+.pricing_banner_sec .herobanner_left {
+  max-width: 40%;
+}
+.pricing_banner_sec .herobanner_right {
+  max-width: 50%;
+}
+.pricing_banner_sec .herobanner_inner_sec {
+  justify-content: space-between;
+}
+.pricing_banner_sec {
+  background: url("../smartperfect/assets/img/pricingbannershade.png") no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+.pricing_plan_inner h2 {
+  text-align: center;
+  margin: 0 0 8px 0;
+}
+.pricing_plan_sec {
+  padding: 50px 0 150px 0;
+}
+.pricing_plan_inner p {
+  text-align: center;
+  color: var(--color-dark);
+  margin: 0 0 48px 0;
+}
+table {
+  border-radius: 20px;
+}
+table th,
+td {
+  border-top: 1px solid #3333330d;
+  border-collapse: collapse;
+  padding: 13px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #373d48;
+}
+table th {
+  border-top: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+table tr th {
+  text-align: center;
+}
+table tr td:not(:first-child) {
+  text-align: center;
+}
+table tr td:nth-child(2) {
+  background-color: #fffffe;
+  border-radius: 0;
+}
+table tr th:nth-child(2) {
+  background-color: #fffffe;
+  border-radius: 0;
+}
+table tr td:nth-child(3) {
+  background-color: #fffff3;
+  border-radius: 0;
+}
+table tr th:nth-child(3) {
+  background-color: #fffff3;
+  border-radius: 0;
+}
+table tr td:nth-child(4) {
+  background-color: #f2f2e1;
+  border-radius: 0;
+}
+table tr th:nth-child(4) {
+  background-color: #f2f2e1;
+  border-radius: 0;
+}
+table tr td:nth-child(5) {
+  background-color: #edecd5;
+  border-radius: 0;
+}
+table tr th:nth-child(5) {
+  background-color: #edecd5;
+  border-radius: 0;
+}
+.pricing_plan_sec .table-responsive {
+  border-radius: 20px;
+  border: 1px solid #3333330d;
+}
+.pricing_plan_sec .table-responsive table {
+  white-space: nowrap;
+}
+/* --------------------------------------pricing page css code------------------------------ */
+
+/* --------------------------------------contact support page css code------------------------------ */
+.message_sec {
+  background-color: #e6f5f2;
+  padding: 60px 0;
+}
+.message_sec_inner .fs_xl {
+  text-align: center;
+  margin: 0 0 8px 0;
+}
+.message_sec_inner p {
+  text-align: center;
+  color: var(--color-dark);
+  margin: 0 0 48px 0;
+}
+.message_field {
+  background-color: #ffffff;
+  padding: 48px;
+  border-radius: 10px;
+}
+.message_field label {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+}
+.message_field input {
+  padding: 13.5px 16px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.message_field input::placeholder {
+  color: #c9c9c9;
+}
+.message_field textarea {
+  font-size: 18px;
+  color: #c9c9c9;
+  border-radius: 10px;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: #2baa95;
+}
+.sub_btn input {
+  background-color: #373d48;
+  border: none;
+  color: #fff;
+  padding: 14px 38px;
+  transition: all 1s ease-in-out;
+}
+
+.question_sec {
+  padding: 60px 0;
+}
+.question_sec_inner .fs_xl {
+  text-align: center;
+  margin: 0 0 8px 0;
+}
+.question_sec_inner p {
+  text-align: center;
+  color: var(--color-dark);
+  margin: 0 0 48px 0;
+}
+.question_sec .accordion-item {
+  margin: 0 0 16px 0;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 4px #0000001f;
+  border: none;
+  border-radius: 10px;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+  color: #333333;
+  background-color: transparent;
+}
+.accordion-button::after {
+  background-image: url("../smartperfect/assets/img/add.png");
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("..");
+}
+.accordion-button {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333333;
+  border-radius: 20px;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../smartperfect/assets/img/minus.png");
+}
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.question_sec .accordion-body p {
+  color: #737373;
+  border-top: 0.5px solid #878b91;
+  margin: 0;
+  padding: 24px 0 0 0;
+  text-align: left;
+}
+.meschar {
+  text-align: right;
+  display: block;
+  margin: 10px 0 0 0;
+  font-size: 18px;
+  font-weight: 400;
+  color: #c9c9c9;
+}
+/* --------------------------------------contact support page css code------------------------------ */
+
+/* --------------------------------------About us page css code------------------------------ */
+.aboutbanner_sec .herobanner_inner_sec {
+  gap: 45px;
+}
+.aboutbanner_sec .herobanner_left {
+  max-width: 50%;
+}
+.aboutbanner_sec .herobanner_right {
+  max-width: 50%;
+}
+.aboutbanner_sec .herobanner_left .text_para p {
+  margin: 15px 0 0 0;
+}
+.about_bird_sec .bird_left img {
+  margin-top: -70px;
+}
+.about_bird_sec .bird_right .fs_lg {
+  font-size: 25px;
+  line-height: 150%;
+  color: #363c47;
+}
+.bird_right .font_md .text_green {
+  font-size: 16px;
+}
+.aboutus_sec {
+  padding: 60px 0;
+  background-color: #f2f2e1;
+}
+.about_left {
+  width: 100%;
+  max-width: 50%;
+}
+.about_right {
+  width: 100%;
+  max-width: 50%;
+}
+.aboutus_inner {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.about_left img {
+  width: 100%;
+}
+.about_right h2 {
+  margin: 0 0 24px 0;
+}
+.about_right .text_para p {
+  margin: 0 0 16px 0;
+  font-size: 16px;
+  color: #666666;
+  font-weight: 400;
+}
+.about_right .text_para p:nth-child(1) {
+  font-size: 18px;
+  color: #373d48;
+  font-weight: 500;
+}
+.about_right .text_para p .text_green {
+  font-weight: 600;
+}
+.about_smartcare_sec {
+  padding: 60px 0 100px 0;
+}
+.about_smartcare_sec .fs_xl {
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+.about_smartcare_sec .text {
+  text-align: center;
+  margin: 0 0 40px 0;
+  font-size: 18px;
+  font-weight: 400;
+  color: #666666;
+  line-height: 24px;
+}
+.about_smartcare_inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.about_smartcare_item {
+  padding: 30px;
+  background: #2baa951a;
+  border-radius: 8px;
+  border: 0.5px solid #2baa95;
+  box-shadow: 0px 2px 5px 0px #0000000f;
+}
+.about_smartcare_item h4 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #373d48;
+  margin: 25px 0 10px 0;
+}
+.about_smartcare_item .text_para p {
+  color: #666666;
+  line-height: 26px;
+}
+/* --------------------------------------About us page css code------------------------------ */
+
+/* =====================media query css code============================== */
+@media (max-width: 1199px) {
+  .clinic_inner_left h5 {
+    left: -60px;
+  }
+  .clinic_inner_right h5 {
+    right: -95px;
+    left: auto;
+  }
+}
+@media (max-width: 991px) {
+  .navbar .navbar-nav .nav-item .nav-link {
+    padding: 0;
+    margin: 30px 0 0 0;
+  }
+  .herobanner_sec {   
+    padding: 50px 0 50px 0;
+  }
+  .clinic_inner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .navbar .navbar-nav .nav-item:last-child .nav-link {
+    padding: 0;
+    margin: 30px 0 30px 0;
+  }
+  .clinic_inner_sec ul {
+    margin: -200px auto 0 auto;
+  }
+  .choose_sec_inner {
+    flex-direction: column-reverse;
+  }
+  .choose_right {
+    max-width: 100%;
+    margin: 0 0 20px 0;
+  }
+  .choose_left {
+    max-width: 100%;
+  }
+  .clinic_inner {
+    flex-direction: column;
+  }
+  .clinic_inner_left ul li:nth-child(1) {
+    transform: rotate(0);
+  }
+  .clinic_inner_left ul li:nth-child(2) {
+    transform: rotate(0);
+  }
+  .clinic_inner_left ul li:nth-child(3) {
+    transform: rotate(0);
+  }
+  .clinic_inner_left ul li:nth-child(4) {
+    transform: rotate(0);
+  }
+  .clinic_inner_left h5 {
+    position: static;
+    transform: rotate(0);
+    margin: 0 0 15px 0;
+  }
+
+  .clinic_inner ul {
+    width: 100%;
+  }
+  .clinic_inner_left {
+    width: 100%;
+  }
+  .clinic_inner_left ul li {
+    max-width: 100%;
+    justify-content: space-between;
+  }
+  .product_inner {
+    flex-direction: column;
+  }
+  .product_inner_left {
+    max-width: 100%;
+  }
+  .bird_inner_sec {
+    align-items: start;
+    flex-direction: column;
+  }
+  .bird_left {
+    max-width: 100%;
+  }
+  .bird_right {
+    max-width: 100%;
+    padding: 50px 0;
+  }
+  .bird_left img {
+    margin-top: -50px;
+    width: 100%;
+  }
+  .feature_action_left {
+    width: 100%;
+  }
+  /* ---------------------------------------feature page css code-------------------------- */
+  .feature_plateform_inner ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .feature_action_inner {
+    gap: 30px;
+    flex-direction: column;
+    align-items: start;
+  }
+  .feature_secure_inner {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  /* ---------------------------------------feature page css code-------------------------- */
+
+  /* ---------------------------------------About us page css code-------------------------- */
+  .about_left {
+    max-width: 100%;
+  }
+  .about_right {
+    max-width: 100%;
+  }
+  .aboutus_inner {
+    flex-direction: column;
+  }
+  .about_smartcare_inner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* ---------------------------------------About us page css code-------------------------- */
+}
+
+@media (max-width: 767px) {
+  .herobanner_inner_sec {
+    flex-direction: column-reverse;
+    gap: 100px;
+  }
+  .clinic_inner {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .choose_card {
+    width: 100%;
+  }
+  .choose_right {
+    gap: 24px;
+  }
+  .herobanner_right {
+    max-width: 100%;
+  }
+  .herobanner_left {
+    max-width: 100%;
+  }
+  .clinic_inner_sec ul li:nth-child(2) {
+    border: none;
+    padding: 0;
+  }
+  .clinic_inner_sec ul li {
+    padding: 0;
+    border: none;
+  }
+  .audioshade {
+    width: 100%;
+    bottom: -60px;
+  }
+  .clinic_inner_left ul li {
+    margin: 0 0 20px 0;
+  }
+  .fs_xl {
+    font-size: 24px;
+  }
+  .fs_xxl {
+    font-size: 28px;
+  }
+  .fs_md {
+    font-size: 20px;
+  }
+  .clinic_inner_sec ul li {
+    font-size: 24px;
+  }
+  .fs_sm {
+    font-size: 16px;
+  }
+  .clinic_inner_sec .fs_xl {
+    line-height: 32px;
+  }
+  .foot_inner_sec ul {
+    gap: 24px;
+  }
+  .fs_lg {
+    font-size: 24px;
+  }
+  .bird_right p {
+    font-size: 18px;
+  }
+  .product_inner_right ul li {
+    margin: 30px 0 0 0;
+  }
+  .product_inner_left ul li {
+    margin: 0 0 30px 0;
+  }
+  .choose_dot {
+    width: 100%;
+  }
+  .driven h4 {
+    font-size: 16px;
+  }
+  .driven span {
+    font-size: 14px;
+  }
+
+  /* ---------------------------------------feature page css code-------------------------- */
+  .feature_banner_sec .herobanner_inner_sec {
+    gap: 20px;
+  }
+  .feature_plateform_inner ul {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+  }
+  .feature_action_right ul li {
+    margin: 0 0 12px 0;
+  }
+  .feature_secure_inner {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  /* ---------------------------------------feature page css code-------------------------- */
+  /* ---------------------------------------pricing page css code-------------------------- */
+  .pricing_banner_sec .herobanner_left {
+    max-width: 100%;
+  }
+  .pricing_banner_sec .herobanner_right {
+    max-width: 100%;
+  }
+  .pricing_banner_sec .herobanner_inner_sec {
+    gap: 20px;
+  }
+  .pricing_banner_sec {
+    padding: 50px 0;
+  }
+  .pricing_plan_sec {
+    padding: 50px 0 80px 0;
+  }
+  .smart_icon {
+    background: #fff;    box-shadow: 0px 6px 54px 0px #FF80AD29;    border-radius: 10px;    display: inline-block;    padding: 8px;
+}
+  /* ---------------------------------------pricing page css code-------------------------- */
+
+  /* ---------------------------------------contact page css code-------------------------- */
+  .message_field {
+    padding: 25px;
+  }
+  /* ---------------------------------------contact page css code-------------------------- */
+
+  /* ---------------------------------------about us page css code-------------------------- */
+  .about_smartcare_inner {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* ---------------------------------------about us page css code-------------------------- */
+}
