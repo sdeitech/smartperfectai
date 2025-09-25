@@ -44,7 +44,7 @@ get_header();
     </div>
     </div>
   </section>
-  <section class="question_sec">
+  <!-- <section class="question_sec">
     <div class="container">
       <div class="question_sec_inner">
         <h2 class="fs_xl font_semibold color_secondary"> Frequently Asked <span class="text_green">Questions</span>
@@ -53,48 +53,48 @@ get_header();
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> <?php echo get_field('question_1', get_the_ID()); ?> </button>
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> <?php //echo get_field('question_1', get_the_ID()); ?> </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <?php echo get_field('answer_1', get_the_ID()); ?> </button>
+                <?php //echo get_field('answer_1', get_the_ID()); ?> </button>
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> <?php echo get_field('question_2', get_the_ID()); ?> </button></button>
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> <?php //echo get_field('question_2', get_the_ID()); ?> </button></button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <?php echo get_field('answer_2', get_the_ID()); ?> </button>
+                <?php //echo get_field('answer_2', get_the_ID()); ?> </button>
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> <?php echo get_field('question_3', get_the_ID()); ?> </button></button>
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> <?php //echo get_field('question_3', get_the_ID()); ?> </button></button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-               <?php echo get_field('answer_3', get_the_ID()); ?> </button>
+               <?php //echo get_field('answer_3', get_the_ID()); ?> </button>
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingfour">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour"> <?php echo get_field('question_4', get_the_ID()); ?> </button> </button>
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour"> <?php //echo get_field('question_4', get_the_ID()); ?> </button> </button>
             </h2>
             <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <?php echo get_field('answer_4', get_the_ID()); ?> </button>
+                <?php //echo get_field('answer_4', get_the_ID()); ?> </button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 </main>
 
       
