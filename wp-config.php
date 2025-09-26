@@ -34,6 +34,14 @@ define( 'DB_HOST', 'localhost' );
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
 
+define('siteurl','https://smartperfect.ai/');
+define('home','https://smartperfect.ai/');
+$_SERVER['HTTPS'] = 'on';
+if ( isset( $_SERVER['HTTP_X_FORWARDED_PROTO'] ) && 'https' == $_SERVER['HTTP_X_FORWARDED_PROTO'] ) {
+    $_SERVER['HTTPS'] = 'on';
+}
+
+
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
@@ -85,7 +93,7 @@ $table_prefix = 'wp_';
  *
  * @link https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/
  */
-define( 'WP_DEBUG', true );
+define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
