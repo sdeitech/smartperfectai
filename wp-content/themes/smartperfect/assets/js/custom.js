@@ -1,4 +1,4 @@
-jQuery(document).ready(function ($) {
+jQuery(document).ready(function () {
   jQuery("#bannerhomepageslider").slick({
     autoplay: true,
     autoplaySpeed: 5000,
@@ -13,9 +13,6 @@ jQuery(document).ready(function ($) {
     cssEase: "ease-in-out",
     speed: 900,
   });
-  var video = jQuery(".video-on-screen").get(0);
-  jQuery("#play-overlay").trigger("click");
-  jQuery("#play-overlay").on("click", function() {
-      video.muted = false; 
-  })
+
+  
 });

@@ -24,7 +24,7 @@
             <div class="herobanner_right">
               <div class="lapii_img">
                 <img class="w-100" src="<?php bloginfo('template_url'); ?>/assets/img/actionimg.png" alt="actionimg" />
-                  <video class="video-on-screen" autoplay muted playsinline loop controls>
+                  <video class="video-on-screen" loop controls>
                     <source src="<?php bloginfo('template_url'); ?>/assets/img/perfectvideo.mp4" type="video/mp4"> Your browser does not support the video tag.
                   </video>
                 <img class="audioshade" src="
