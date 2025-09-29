@@ -16,14 +16,14 @@
               <div class="text_para"> <?php echo get_field('subtext', get_the_ID()); ?> </div>
               <div class="sap_green_btn">
                 <button type="button" onclick="location.href = '/contact-us';"> <?php echo get_field('button_text', get_the_ID()); ?><i class="fa-solid fa-arrow-right icon"></i> </button>
+                <div id="play-overlay" style="display:none;">
+                    <button>Play Video with Sound</button>
+                </div>
               </div>
             </div>
             <div class="herobanner_right">
               <div class="lapii_img">
                 <img class="w-100" src="<?php bloginfo('template_url'); ?>/assets/img/actionimg.png" alt="actionimg" />
-                  <div id="play-overlay" style="display:none;">
-                      <button>Play Video with Sound</button>
-                  </div>
                   <video class="video-on-screen" autoplay muted playsinline loop controls>
                     <source src="<?php bloginfo('template_url'); ?>/assets/img/perfectvideo.mp4" type="video/mp4"> Your browser does not support the video tag.
                   </video>

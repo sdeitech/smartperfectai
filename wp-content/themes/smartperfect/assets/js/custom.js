@@ -13,10 +13,9 @@ jQuery(document).ready(function ($) {
     cssEase: "ease-in-out",
     speed: 900,
   });
-  var video = $(".video-on-screen").get(0);
-  $("#play-overlay").on("click", function() {
-      video.muted = false; // enable audio
-      video.play(); // play video
-      $(this).fadeOut(); // hide overlay
+  var video = jQuery(".video-on-screen").get(0);
+  jQuery("#play-overlay").trigger("click");
+  jQuery("#play-overlay").on("click", function() {
+      video.muted = false; 
   })
 });
