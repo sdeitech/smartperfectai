@@ -25,7 +25,7 @@
               <div class="lapii_img">
                 <img class="w-100" src="<?php bloginfo('template_url'); ?>/assets/img/actionimg.png" alt="actionimg" />
                   <video class="video-on-screen" poster="https://smartperfect.ai/wp-content/themes/smartperfect/assets/img/image.png" loop controls >
-                    <source src="<?php bloginfo('template_url'); ?>/assets/img/perfectvideo.mp4" type="video/mp4"> Your browser does not support the video tag.
+                    <source src="<?php bloginfo('template_url'); ?>/assets/img/perfectvideo-updated.mp4" type="video/mp4"> Your browser does not support the video tag.
                   </video>
                 <img class="audioshade" src="
                     <?php bloginfo('template_url'); ?>/assets/img/banneraudioshade.png" alt="audioshade" />
