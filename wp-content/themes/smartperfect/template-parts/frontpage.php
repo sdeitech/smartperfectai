@@ -23,7 +23,7 @@
                 <img class="w-100" src="<?php bloginfo('template_url'); ?>/assets/img/actionimg.png" alt="actionimg" />
                 <!-- <img class="w-100" src="
                   <?php //echo get_field('main_image', get_the_ID()); ?>" alt="bannerlapii" /> -->
-                  <video class="video-on-screen" autoplay controls>
+                  <video class="video-on-screen" autoplay playsinline loop controls>
                     <source src="<?php bloginfo('template_url'); ?>/assets/img/perfectvideo.mp4" type="video/mp4"> Your browser does not support the video tag.
                   </video>
                 <img class="audioshade" src="
