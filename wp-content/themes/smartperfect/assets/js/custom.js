@@ -14,15 +14,9 @@ jQuery(document).ready(function ($) {
     speed: 900,
   });
   var video = $(".video-on-screen").get(0);
-  if (video) {
-    video.muted = true;
-    var playPromise = video.play();
-    if (playPromise !== undefined) {
-      playPromise.catch(function() {
-        $(document).one("click touchstart", function() {
-            video.play();
-        });
-      });
-    }
-  }
+  $("#play-overlay").on("click", function() {
+      video.muted = false; // enable audio
+      video.play(); // play video
+      $(this).fadeOut(); // hide overlay
+  })
 });

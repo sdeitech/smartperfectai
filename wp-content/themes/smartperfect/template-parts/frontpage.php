@@ -21,8 +21,9 @@
             <div class="herobanner_right">
               <div class="lapii_img">
                 <img class="w-100" src="<?php bloginfo('template_url'); ?>/assets/img/actionimg.png" alt="actionimg" />
-                <!-- <img class="w-100" src="
-                  <?php //echo get_field('main_image', get_the_ID()); ?>" alt="bannerlapii" /> -->
+                  <div id="play-overlay" style="display:none;">
+                      <button>Play Video with Sound</button>
+                  </div>
                   <video class="video-on-screen" autoplay muted playsinline loop controls>
                     <source src="<?php bloginfo('template_url'); ?>/assets/img/perfectvideo.mp4" type="video/mp4"> Your browser does not support the video tag.
                   </video>
