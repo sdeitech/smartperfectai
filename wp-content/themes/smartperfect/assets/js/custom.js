@@ -13,4 +13,16 @@ jQuery(document).ready(function () {
     cssEase: "ease-in-out",
     speed: 900,
   });
+
+    var video = jQuery(".video-on-screen").get(0);
+
+    if (video) {
+        // Try to autoplay
+        video.play().catch(function(error) {
+            // If autoplay is blocked, fallback: play after user clicks anywhere
+            jQuery(document).one("click touchstart", function() {
+                video.play();
+            });
+        });
+    }
 });
