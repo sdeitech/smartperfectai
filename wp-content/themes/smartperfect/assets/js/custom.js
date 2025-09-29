@@ -1,4 +1,4 @@
-jQuery(document).ready(function () {
+jQuery(document).ready(function ($) {
   jQuery("#bannerhomepageslider").slick({
     autoplay: true,
     autoplaySpeed: 5000,
@@ -13,16 +13,16 @@ jQuery(document).ready(function () {
     cssEase: "ease-in-out",
     speed: 900,
   });
-
-    var video = jQuery(".video-on-screen").get(0);
-
-    if (video) {
-        // Try to autoplay
-        video.play().catch(function(error) {
-            // If autoplay is blocked, fallback: play after user clicks anywhere
-            jQuery(document).one("click touchstart", function() {
-                video.play();
-            });
+  var video = $(".video-on-screen").get(0);
+  if (video) {
+    video.muted = true;
+    var playPromise = video.play();
+    if (playPromise !== undefined) {
+      playPromise.catch(function() {
+        $(document).one("click touchstart", function() {
+            video.play();
         });
+      });
     }
+  }
 });
