@@ -40,7 +40,7 @@ get_header();
   </section>
   <section class="about_smartcare_sec">
     <div class="container">
-      <h2 class="fs_xl font_semibold color_secondary"> Why Choose <span class="text_green">smartCare AI</span>
+      <h2 class="fs_xl font_semibold color_secondary"> Why Choose <span class="text_green">smartPerfect AI</span>
       </h2>
       <p class="text">Trusted by Healthcare Organizations Worldwide</p>
       <div class="about_smartcare_inner">
