@@ -10,6 +10,7 @@
               <!-- <li><a href="/features">Features</a></li>
               <li><a href="/pricing">Pricing</a></li> -->
               <li><a href="/about-us">About</a></li>
+              <li><a href="/pricing">Policy & Terms</a></li> 
               <li><a href="/contact-us">Contact Support</a></li>
             </ul>
             <div class="foot_social_icon">

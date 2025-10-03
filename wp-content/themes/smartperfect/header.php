@@ -53,6 +53,9 @@
                 <a class="nav-link <?php //if ( is_page(62) ) echo 'active'; ?>" href="/pricing">Pricing</a>
               </li> -->
               <li class="nav-item">
+                <a class="nav-link <?php if ( is_page(158) ) echo 'active'; ?>" href="/pricing">Policy & Terms</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link <?php if ( is_page(91) ) echo 'active'; ?>" href="/about-us">About</a>
               </li>
             </ul>
