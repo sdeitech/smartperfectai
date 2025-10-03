@@ -1329,3 +1329,33 @@ table tr th:nth-child(5) {
   }
   /* ---------------------------------------about us page css code-------------------------- */
 }
+
+
+.ehssDetail .section-heading.leftlineheading {
+    font-size: 40px;
+    color: #373d48;
+    font-weight: 400;
+    margin:0 0 15px
+}
+.ehssDetail {
+    padding: 80px 0;
+}
+.ehssDetail h3{
+    font-size:24px;font-weight:400;
+  margin:0 0 12px 0;
+  color: #373d48;
+}
+.ehssDetail p{color:#737373; font-size:16px; font-weight:400;line-break:150%;margin:0 0 12px 0;}
+.ehssDetail p a{color:#db222a;}
+.ehssDetail ul li{margin:0 0 12px 0;color:#737373; font-size:16px; font-weight:400;line-break:150%;}
+.ehssDetail ul li strong{
+  color: #373d48;
+}
+.ehssDetail p strong{
+  color: #373d48;
+}
+@media( max-width:767px) {
+  .ehssDetail {
+    padding: 50px 0;
+}
+}
