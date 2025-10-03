@@ -46,12 +46,12 @@
               <li class="nav-item">
                 <a class="nav-link <?php if ( is_page(9) ) echo 'active'; ?>" aria-current="page" href="/">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link <?php if ( is_page(14) ) echo 'active'; ?>" href="/features">Features</a>
+              <!-- <li class="nav-item">
+                <a class="nav-link <?php //if ( is_page(14) ) echo 'active'; ?>" href="/features">Features</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link <?php if ( is_page(62) ) echo 'active'; ?>" href="/pricing">Pricing</a>
-              </li>
+                <a class="nav-link <?php //if ( is_page(62) ) echo 'active'; ?>" href="/pricing">Pricing</a>
+              </li> -->
               <li class="nav-item">
                 <a class="nav-link <?php if ( is_page(91) ) echo 'active'; ?>" href="/about-us">About</a>
               </li>
